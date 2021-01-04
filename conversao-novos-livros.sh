@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 converte_imagem(){
