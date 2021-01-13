@@ -9,5 +9,4 @@ then
 mail -s "Consumo de memoria acima do limite" adm.mutillidae@gmail.com<<del
 O consumo de memoria esta acima do limite que foi especificado. Atualmente o consumo e de $(free -h | grep -i mem | awk '{ print $3 }')
 del
-
 fi
