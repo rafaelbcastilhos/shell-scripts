@@ -5,7 +5,6 @@ then
 	mkdir log
 fi
 
-
 processos_memoria(){
 processos=$(ps -e -o pid --sort -size | head -n 11 | grep [0-9])
 for pid in $processos
