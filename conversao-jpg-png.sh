@@ -7,7 +7,6 @@ then
 	mkdir png
 fi
 
-
 for imagem in *.jpg
 do
 	local imagem_sem_extensao=$(ls $imagem | awk -F. '{ print $1 }')
